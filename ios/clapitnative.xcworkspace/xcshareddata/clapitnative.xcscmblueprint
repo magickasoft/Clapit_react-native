@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F48DDB21F9E2ED61E55F4BC29F925E73D6C9DF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "274761C4A7951D02FB3A1914458010F1BB0E9C08" : 0,
+    "6F48DDB21F9E2ED61E55F4BC29F925E73D6C9DF8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C86826E4-CD0A-4305-9B35-49E6273893F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "274761C4A7951D02FB3A1914458010F1BB0E9C08" : "clapit-ios-v1\/",
+    "6F48DDB21F9E2ED61E55F4BC29F925E73D6C9DF8" : "clapit-react-native\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "clapitnative",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/clapitnative.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Clapit\/clapit-ios-v1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "274761C4A7951D02FB3A1914458010F1BB0E9C08"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Clapit\/clapit-react-native.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F48DDB21F9E2ED61E55F4BC29F925E73D6C9DF8"
+    }
+  ]
+}

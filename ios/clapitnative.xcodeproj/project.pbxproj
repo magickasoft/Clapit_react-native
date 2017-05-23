@@ -1,0 +1,2045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002660352B306058C1FB51CD /* libPods-clapitnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 827C5DD53869EAE8CFE16FE1 /* libPods-clapitnative.a */; };
+		0405FA191DBDDC82001911B9 /* libMixpanel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405FA181DBDDC82001911B9 /* libMixpanel.a */; };
+		0405FA481DBDE10B001911B9 /* libQBImagePickerController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405FA471DBDE10B001911B9 /* libQBImagePickerController.a */; };
+		042E02961DDAE25C00ACBE46 /* Theo_clapit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 042E02951DDAE25C00ACBE46 /* Theo_clapit.mp4 */; };
+		042E02971DDAE25C00ACBE46 /* Theo_clapit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 042E02951DDAE25C00ACBE46 /* Theo_clapit.mp4 */; };
+		04462CE61DB73A750016B875 /* libSMXCrashlytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFB3F81DAF0C960061032A /* libSMXCrashlytics.a */; };
+		045585451D1B617300F175A5 /* KochavaWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 045585441D1B617300F175A5 /* KochavaWrapper.m */; };
+		045585461D1B617300F175A5 /* KochavaWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 045585441D1B617300F175A5 /* KochavaWrapper.m */; };
+		0455855A1D1B620900F175A5 /* libTrackAndAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045585591D1B620900F175A5 /* libTrackAndAd.a */; };
+		0455855C1D1B621700F175A5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455855B1D1B621700F175A5 /* iAd.framework */; };
+		0455855E1D1B622000F175A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455855D1D1B622000F175A5 /* AdSupport.framework */; };
+		045585601D1B623100F175A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455855F1D1B623100F175A5 /* Foundation.framework */; };
+		045585621D1B623900F175A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045585611D1B623900F175A5 /* UIKit.framework */; };
+		045585641D1B624100F175A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045585631D1B624100F175A5 /* CoreLocation.framework */; };
+		045585651D1B627C00F175A5 /* libTrackAndAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045585591D1B620900F175A5 /* libTrackAndAd.a */; };
+		045585661D1B62A500F175A5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455855B1D1B621700F175A5 /* iAd.framework */; };
+		045585671D1B62AC00F175A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455855D1D1B622000F175A5 /* AdSupport.framework */; };
+		045585681D1B62D000F175A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045585631D1B624100F175A5 /* CoreLocation.framework */; };
+		045585691D1B62D600F175A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455855F1D1B623100F175A5 /* Foundation.framework */; };
+		0455856A1D1B62DE00F175A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045585611D1B623900F175A5 /* UIKit.framework */; };
+		045B99421DDD4FCE00C5A377 /* intro_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045B99411DDD4FCE00C5A377 /* intro_1.mp4 */; };
+		045B99431DDD4FCE00C5A377 /* intro_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 045B99411DDD4FCE00C5A377 /* intro_1.mp4 */; };
+		04A35A7B1DC2162A005733E8 /* libRSKImageCropper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A35A7A1DC2162A005733E8 /* libRSKImageCropper.a */; };
+		04A35A941DC33DB1005733E8 /* libRSKImageCropper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A35A931DC33DB1005733E8 /* libRSKImageCropper.a */; };
+		04A3815F1DDD35480040C122 /* libRNViewShot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BDA4961DD0533F00098495 /* libRNViewShot.a */; };
+		04DD4ECA1DA5E030003BABDE /* intro_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04DD4EC81DA5E030003BABDE /* intro_2.mp4 */; };
+		04DD4EE31DA5F224003BABDE /* intro_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04DD4EE11DA5F224003BABDE /* intro_3.mp4 */; };
+		04DD4EE41DA5F224003BABDE /* intro_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04DD4EE21DA5F224003BABDE /* intro_4.mp4 */; };
+		04DEEDC31D6BF78100502027 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEEDC21D6BF78100502027 /* libReact.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		149B1A8E1DA3401A00EF85AA /* MixpanelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B1A8D1DA3401A00EF85AA /* MixpanelManager.m */; };
+		14DD32551D3C760F00DA8DAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14DD32541D3C760F00DA8DAD /* GoogleService-Info.plist */; };
+		14E88F3E1D7FDD8A00E0D6EA /* libRNMixpanel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F963C4A1D05D07300962619 /* libRNMixpanel.a */; };
+		14E88F3F1D7FEF0700E0D6EA /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DD32371D3C740000DA8DAD /* libRNFIRMessaging.a */; };
+		159F64061CD262870054B24B /* libRNGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159F64031CD262760054B24B /* libRNGL.a */; };
+		159F66431CDB92EC0054B24B /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159F663A1CDB92D90054B24B /* libRNImagePicker.a */; };
+		2B947FC5FD434F71AC178A1B /* libSMXCrashlytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FF74A6CFD24A04881FBCF8 /* libSMXCrashlytics.a */; };
+		392F674E1CC6E84C00DE782C /* libAppHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BF73441CC6D20600BAB466 /* libAppHub.a */; };
+		392F674F1CC6E85100DE782C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F67471CC6E52700DE782C /* SystemConfiguration.framework */; };
+		392F67501CC6E85A00DE782C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F67491CC6E53000DE782C /* libz.tbd */; };
+		392F67511CC6E86000DE782C /* libAppHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BF73441CC6D20600BAB466 /* libAppHub.a */; };
+		392F67521CC6E86400DE782C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F67491CC6E53000DE782C /* libz.tbd */; };
+		392F67531CC6E86900DE782C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F67471CC6E52700DE782C /* SystemConfiguration.framework */; };
+		392FE0541CB2AD7D00749145 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392FE0531CB2AD7D00749145 /* LaunchScreen.xib */; };
+		392FE05B1CB58A8900749145 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 392FE05A1CB58A7000749145 /* libRCTCamera.a */; };
+		392FE0641CB5A67600749145 /* ImageCropperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 392FE0631CB5A67600749145 /* ImageCropperManager.m */; };
+		3965A0431CB8582C00A82F10 /* clap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3965A0421CB8582C00A82F10 /* clap.m4a */; };
+		3965A0491CB85DF800A82F10 /* ClapSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965A0481CB85DF800A82F10 /* ClapSoundManager.m */; };
+		3965A0781CBBE9B900A82F10 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965A0771CBBE9B900A82F10 /* ShareViewController.m */; };
+		3965A07B1CBBE9B900A82F10 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965A0791CBBE9B900A82F10 /* MainInterface.storyboard */; };
+		3965A07F1CBBE9B900A82F10 /* clapitextension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3965A0741CBBE9B900A82F10 /* clapitextension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3965A08A1CBBEE9B00A82F10 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 392FE05A1CB58A7000749145 /* libRCTCamera.a */; };
+		3965A08B1CBBEE9B00A82F10 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F6C891CAC7A8400EE3560 /* libRCTVideo.a */; };
+		3965A09A1CBC1A5400A82F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79138B391CAAD97500BD2C6A /* Images.xcassets */; };
+		3965A09B1CBC2E0300A82F10 /* clap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3965A0421CB8582C00A82F10 /* clap.m4a */; };
+		3965A09C1CBC2E6D00A82F10 /* ClapSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965A0481CB85DF800A82F10 /* ClapSoundManager.m */; };
+		3965A09F1CBC56C000A82F10 /* ExtensionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965A09E1CBC56C000A82F10 /* ExtensionManager.m */; };
+		3965A0A61CBCB0B100A82F10 /* ViewSnapshotter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965A0A51CBCB0B100A82F10 /* ViewSnapshotter.m */; };
+		3965A0A71CBCB0B600A82F10 /* ViewSnapshotter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3965A0A51CBCB0B100A82F10 /* ViewSnapshotter.m */; };
+		397359A41CD7BBB4007EF88A /* CrashlyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 397359A31CD7BBB4007EF88A /* CrashlyticsManager.m */; };
+		398F6BDD1CAAE4BD00EE3560 /* clapit-intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 398F6BDC1CAAE4BD00EE3560 /* clapit-intro.mp4 */; };
+		398F6C271CAB362C00EE3560 /* AvenirNextRoundedPro-Med.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398F6C241CAB362C00EE3560 /* AvenirNextRoundedPro-Med.ttf */; };
+		398F6C281CAB362C00EE3560 /* AvenirNextRoundedStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 398F6C251CAB362C00EE3560 /* AvenirNextRoundedStd-Bold.otf */; };
+		398F6C291CAB362C00EE3560 /* AvenirNextRoundedStd-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 398F6C261CAB362C00EE3560 /* AvenirNextRoundedStd-Med.otf */; };
+		398F6C8A1CAC7A9800EE3560 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F6C891CAC7A8400EE3560 /* libRCTVideo.a */; };
+		398F6C911CADC98200EE3560 /* TwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F6C901CADC98200EE3560 /* TwitterManager.m */; };
+		39958E291CE0F58100DB5898 /* clapit-apphub.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 39958E281CE0F58100DB5898 /* clapit-apphub.entitlements */; };
+		39958E2B1CE0F5AA00DB5898 /* clapitextension-apphub.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 39958E2A1CE0F5AA00DB5898 /* clapitextension-apphub.entitlements */; };
+		39A027A21CCAB9F7003BAE8E /* RNUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A027A11CCAB9F7003BAE8E /* RNUploader.m */; };
+		39A027A31CCAB9F7003BAE8E /* RNUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A027A11CCAB9F7003BAE8E /* RNUploader.m */; };
+		39BF73191CC2C03A00BAB466 /* AssetHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BF73181CC2C03A00BAB466 /* AssetHelperManager.m */; };
+		39C3DC601CD2C322008C1898 /* libRNMail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EB5EC71CD158410037A25E /* libRNMail.a */; };
+		39C3DC611CD2C322008C1898 /* libRNMessageComposer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C3DC531CD2C22E008C1898 /* libRNMessageComposer.a */; };
+		39C3DC881CD3C586008C1898 /* libRNGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159F64031CD262760054B24B /* libRNGL.a */; };
+		39CE0D401CD3F17300FDCFF6 /* AppHubManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CE0D3F1CD3F17300FDCFF6 /* AppHubManager.m */; };
+		39E264621CBFD78A009AEA49 /* SharedStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E264611CBFD78A009AEA49 /* SharedStorageManager.m */; };
+		39E264631CBFD78A009AEA49 /* SharedStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E264611CBFD78A009AEA49 /* SharedStorageManager.m */; };
+		39FC85541CD80071009CB378 /* AssetHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BF73181CC2C03A00BAB466 /* AssetHelperManager.m */; };
+		39FC85651CD80207009CB378 /* ImageCropperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 392FE0631CB5A67600749145 /* ImageCropperManager.m */; };
+		3A973CCF017B43658E3D2484 /* libimageCropPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1F1412DB69494184E137FB /* libimageCropPicker.a */; };
+		481C4B221CB87EA600A81758 /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481C4B201CB87E7000A81758 /* libRCTCameraRoll.a */; };
+		4EE4C2C0D32D4619B5626FE8 /* libRNViewShot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F414D2F2D744605BF391416 /* libRNViewShot.a */; };
+		79138B3A1CAAD97500BD2C6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79138B391CAAD97500BD2C6A /* Images.xcassets */; };
+		7F963C4D1D05D0D700962619 /* libRNMixpanel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F963C4A1D05D07300962619 /* libRNMixpanel.a */; };
+		7FA61CA51D05D73100E60C59 /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0651D05D6490065E8AF /* libBolts.a */; };
+		7FA61CDC1D05D85D00E60C59 /* libreact-native-fbsdkcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA61CD91D05D85D00E60C59 /* libreact-native-fbsdkcore.a */; };
+		7FA61CDD1D05D85D00E60C59 /* libreact-native-fbsdklogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA61CDA1D05D85D00E60C59 /* libreact-native-fbsdklogin.a */; };
+		7FA61CDE1D05D85D00E60C59 /* libreact-native-fbsdkshare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA61CDB1D05D85D00E60C59 /* libreact-native-fbsdkshare.a */; };
+		7FA61CE41D05D89500E60C59 /* libFBSDKCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA61CE11D05D89500E60C59 /* libFBSDKCoreKit.a */; };
+		7FA61CE51D05D89500E60C59 /* libFBSDKLoginKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA61CE21D05D89500E60C59 /* libFBSDKLoginKit.a */; };
+		7FA61CE61D05D89500E60C59 /* libFBSDKShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA61CE31D05D89500E60C59 /* libFBSDKShareKit.a */; };
+		8455B391551D43EA84BB5712 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DBD7C94224471F98770E83 /* libRNShare.a */; };
+		9611C79D1D1EA6BB00DF208B /* libRCTContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9611C7901D1EA67F00DF208B /* libRCTContacts.a */; };
+		9611C79E1D1EA6D100DF208B /* libRCTContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9611C7901D1EA67F00DF208B /* libRCTContacts.a */; };
+		E92371F27AEA4CA1AF9BB5B0 /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C320B93D0D6449AA630AA74 /* libRNFIRMessaging.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0441CAC11DB6FE0600AF7A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66C7F91F2C44B12978C2814 /* ImageCropPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3400A8081CEB54A6008A0BC7;
+			remoteInfo = imageCropPicker;
+		};
+		14BDA4951DD0533F00098495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD479595982049A28A3F14F9 /* RNViewShot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNViewShot;
+		};
+		14CFB3F71DAF0C960061032A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A183CEB3DEC847C897668636 /* SMXCrashlytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8D9DB831C6D03DB009FBC0E;
+			remoteInfo = SMXCrashlytics;
+		};
+		14CFB4211DAF60EA0061032A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A9B95A15EF04724A53550A6 /* RNShare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNShare;
+		};
+		14DD32361D3C740000DA8DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A59ACD91616499184B70A64 /* RNFIRMessaging.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFIRMessaging;
+		};
+		1539CAD91CCFF76D00171952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1539CAD51CCFF76D00171952 /* AQWebView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B461C5D1BB2360700A57DA9;
+			remoteInfo = AQWebView;
+		};
+		159F64021CD262760054B24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159F63F71CD262760054B24B /* RNGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RNGL;
+		};
+		159F66391CDB92D90054B24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159F662D1CDB92D80054B24B /* RNImagePicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 014A3B5C1C6CF33500B6D375;
+			remoteInfo = RNImagePicker;
+		};
+		392FE0591CB58A7000749145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392FE0551CB58A7000749145 /* RCTCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RCTCamera;
+		};
+		3965A07D1CBBE9B900A82F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3965A0731CBBE9B900A82F10;
+			remoteInfo = clapitextension;
+		};
+		398F6C881CAC7A8400EE3560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398F6C841CAC7A8400EE3560 /* RCTVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTVideo;
+		};
+		39A0279E1CCAB877003BAE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15ABD96F1CCA804400BF5057 /* RNUploader.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNUploader;
+		};
+		39BF73431CC6D20600BAB466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BF733C1CC6D20500BAB466 /* AppHub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 555FF3AF1B37AC8D0064F175;
+			remoteInfo = AppHub;
+		};
+		39BF73451CC6D20600BAB466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BF733C1CC6D20500BAB466 /* AppHub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 555FF3BA1B37AC8D0064F175;
+			remoteInfo = AppHubTests;
+		};
+		39C3DC521CD2C22E008C1898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C3DC441CD2C22E008C1898 /* RNMessageComposer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C23F08041AFAB5C100312C72;
+			remoteInfo = RNMessageComposer;
+		};
+		39C3DC5C1CD2C24A008C1898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C3DC571CD2C249008C1898 /* RNMail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46FEDE7F1AFF192F00D3261C;
+			remoteInfo = RNMail;
+		};
+		39C3DC5E1CD2C24A008C1898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C3DC571CD2C249008C1898 /* RNMail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46FEDE8A1AFF192F00D3261C;
+			remoteInfo = RNMailTests;
+		};
+		481C4B1F1CB87E7000A81758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 481C4B1A1CB87E7000A81758 /* RCTCameraRoll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTCameraRoll;
+		};
+		484B826D1CD2612D00FB2C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484B82601CD2612D00FB2C8A /* RNMessageComposer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C23F08041AFAB5C100312C72;
+			remoteInfo = RNMessageComposer;
+		};
+		48CA6C111CC17471004447C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48CA6C0A1CC17471004447C6 /* RNSearchBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNSearchBar;
+		};
+		48EB5EC61CD158410037A25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EB5EBB1CD158410037A25E /* RNMail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46FEDE7F1AFF192F00D3261C;
+			remoteInfo = RNMail;
+		};
+		48EB5EC81CD158410037A25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EB5EBB1CD158410037A25E /* RNMail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46FEDE8A1AFF192F00D3261C;
+			remoteInfo = RNMailTests;
+		};
+		7F963C491D05D07300962619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F963C361D05D07300962619 /* RNMixpanel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDC64AF01BF1690D0044C1B4;
+			remoteInfo = RNMixpanel;
+		};
+		9611C78F1D1EA67F00DF208B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9611C7851D1EA67F00DF208B /* RCTContacts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1441618E1BD0A79300FA4F59;
+			remoteInfo = RCTContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3965A0851CBBE9B900A82F10 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3965A07F1CBBE9B900A82F10 /* clapitextension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* clapitnativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clapitnativeTests.m; sourceTree = "<group>"; };
+		0405FA181DBDDC82001911B9 /* libMixpanel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMixpanel.a; path = "Pods/../build/Debug-iphoneos/Mixpanel/libMixpanel.a"; sourceTree = "<group>"; };
+		0405FA471DBDE10B001911B9 /* libQBImagePickerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQBImagePickerController.a; path = "Pods/../build/Debug-iphoneos/QBImagePickerController/libQBImagePickerController.a"; sourceTree = "<group>"; };
+		042E02951DDAE25C00ACBE46 /* Theo_clapit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Theo_clapit.mp4; sourceTree = "<group>"; };
+		045585431D1B617300F175A5 /* KochavaWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KochavaWrapper.h; path = shared/KochavaWrapper.h; sourceTree = "<group>"; };
+		045585441D1B617300F175A5 /* KochavaWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KochavaWrapper.m; path = shared/KochavaWrapper.m; sourceTree = "<group>"; };
+		045585591D1B620900F175A5 /* libTrackAndAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTrackAndAd.a; path = Pods/Kochava/libTrackAndAd.a; sourceTree = "<group>"; };
+		0455855B1D1B621700F175A5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		0455855D1D1B622000F175A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0455855F1D1B623100F175A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		045585611D1B623900F175A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		045585631D1B624100F175A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		045B99411DDD4FCE00C5A377 /* intro_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_1.mp4; sourceTree = "<group>"; };
+		04A35A7A1DC2162A005733E8 /* libRSKImageCropper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRSKImageCropper.a; path = "Pods/../build/Debug-iphoneos/RSKImageCropper/libRSKImageCropper.a"; sourceTree = "<group>"; };
+		04A35A931DC33DB1005733E8 /* libRSKImageCropper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRSKImageCropper.a; path = "Pods/../build/Debug-iphoneos/RSKImageCropper/libRSKImageCropper.a"; sourceTree = "<group>"; };
+		04DD4EC81DA5E030003BABDE /* intro_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_2.mp4; sourceTree = "<group>"; };
+		04DD4EE11DA5F224003BABDE /* intro_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_3.mp4; sourceTree = "<group>"; };
+		04DD4EE21DA5F224003BABDE /* intro_4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_4.mp4; sourceTree = "<group>"; };
+		04DEEDC21D6BF78100502027 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/clapitnative-fgdaujushtmjlpgxuwufpxtcnkef/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* clapit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clapit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = clapitnative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = clapitnative/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = clapitnative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = clapitnative/main.m; sourceTree = "<group>"; };
+		149B1A8C1DA3401A00EF85AA /* MixpanelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixpanelManager.h; sourceTree = "<group>"; };
+		149B1A8D1DA3401A00EF85AA /* MixpanelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixpanelManager.m; sourceTree = "<group>"; };
+		14DD32541D3C760F00DA8DAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1539CAD51CCFF76D00171952 /* AQWebView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AQWebView.xcodeproj; path = "../node_modules/react-native-wkwebview/AQWebView.xcodeproj"; sourceTree = "<group>"; };
+		159F63F71CD262760054B24B /* RNGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGL.xcodeproj; path = "../node_modules/gl-react-native/ios/RNGL.xcodeproj"; sourceTree = "<group>"; };
+		159F662D1CDB92D80054B24B /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
+		15ABD96F1CCA804400BF5057 /* RNUploader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNUploader.xcodeproj; path = RNUploader/RNUploader.xcodeproj; sourceTree = "<group>"; };
+		2A59ACD91616499184B70A64 /* RNFIRMessaging.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFIRMessaging.xcodeproj; path = "../node_modules/react-native-fcm/ios/RNFIRMessaging.xcodeproj"; sourceTree = "<group>"; };
+		392F67471CC6E52700DE782C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		392F67491CC6E53000DE782C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		392FE0531CB2AD7D00749145 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		392FE0551CB58A7000749145 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
+		392FE0621CB5A67600749145 /* ImageCropperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCropperManager.h; path = clapitnative/ImageCropper/ImageCropperManager.h; sourceTree = "<group>"; };
+		392FE0631CB5A67600749145 /* ImageCropperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCropperManager.m; path = clapitnative/ImageCropper/ImageCropperManager.m; sourceTree = "<group>"; };
+		3965A0421CB8582C00A82F10 /* clap.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = clap.m4a; sourceTree = "<group>"; };
+		3965A0471CB85DF800A82F10 /* ClapSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClapSoundManager.h; path = clapitnative/ClapSoundManager/ClapSoundManager.h; sourceTree = "<group>"; };
+		3965A0481CB85DF800A82F10 /* ClapSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClapSoundManager.m; path = clapitnative/ClapSoundManager/ClapSoundManager.m; sourceTree = "<group>"; };
+		3965A0741CBBE9B900A82F10 /* clapitextension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = clapitextension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3965A0761CBBE9B900A82F10 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		3965A0771CBBE9B900A82F10 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		3965A07A1CBBE9B900A82F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3965A07C1CBBE9B900A82F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3965A09D1CBC56C000A82F10 /* ExtensionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionManager.h; sourceTree = "<group>"; };
+		3965A09E1CBC56C000A82F10 /* ExtensionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionManager.m; sourceTree = "<group>"; };
+		3965A0A41CBCB0B100A82F10 /* ViewSnapshotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewSnapshotter.h; path = shared/ViewSnapshotter.h; sourceTree = "<group>"; };
+		3965A0A51CBCB0B100A82F10 /* ViewSnapshotter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewSnapshotter.m; path = shared/ViewSnapshotter.m; sourceTree = "<group>"; };
+		397359A21CD7BBB4007EF88A /* CrashlyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrashlyticsManager.h; path = clapitnative/CrashlyticsManager/CrashlyticsManager.h; sourceTree = "<group>"; };
+		397359A31CD7BBB4007EF88A /* CrashlyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrashlyticsManager.m; path = clapitnative/CrashlyticsManager/CrashlyticsManager.m; sourceTree = "<group>"; };
+		398F6BDC1CAAE4BD00EE3560 /* clapit-intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "clapit-intro.mp4"; path = "clapitnative/clapit-intro.mp4"; sourceTree = "<group>"; };
+		398F6C241CAB362C00EE3560 /* AvenirNextRoundedPro-Med.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextRoundedPro-Med.ttf"; sourceTree = "<group>"; };
+		398F6C251CAB362C00EE3560 /* AvenirNextRoundedStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextRoundedStd-Bold.otf"; sourceTree = "<group>"; };
+		398F6C261CAB362C00EE3560 /* AvenirNextRoundedStd-Med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextRoundedStd-Med.otf"; sourceTree = "<group>"; };
+		398F6C841CAC7A8400EE3560 /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
+		398F6C8F1CADC98200EE3560 /* TwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterManager.h; path = clapitnative/TwitterManager/TwitterManager.h; sourceTree = "<group>"; };
+		398F6C901CADC98200EE3560 /* TwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterManager.m; path = clapitnative/TwitterManager/TwitterManager.m; sourceTree = "<group>"; };
+		39958E281CE0F58100DB5898 /* clapit-apphub.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "clapit-apphub.entitlements"; path = "clapitnative/clapit-apphub.entitlements"; sourceTree = "<group>"; };
+		39958E2A1CE0F5AA00DB5898 /* clapitextension-apphub.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "clapitextension-apphub.entitlements"; sourceTree = "<group>"; };
+		39A027A11CCAB9F7003BAE8E /* RNUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNUploader.m; path = RNUploader/RNUploader.m; sourceTree = "<group>"; };
+		39A027A51CCC857C003BAE8E /* clapitextension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = clapitextension.entitlements; sourceTree = "<group>"; };
+		39A027A61CCC876D003BAE8E /* clapit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = clapit.entitlements; path = clapitnative/clapit.entitlements; sourceTree = "<group>"; };
+		39BF73171CC2C03A00BAB466 /* AssetHelperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetHelperManager.h; sourceTree = "<group>"; };
+		39BF73181CC2C03A00BAB466 /* AssetHelperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetHelperManager.m; sourceTree = "<group>"; };
+		39BF733C1CC6D20500BAB466 /* AppHub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppHub.xcodeproj; path = ../node_modules/apphub/AppHub/AppHub.xcodeproj; sourceTree = "<group>"; };
+		39C3DC441CD2C22E008C1898 /* RNMessageComposer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMessageComposer.xcodeproj; path = "../node_modules/react-native-message-composer/RNMessageComposer.xcodeproj"; sourceTree = "<group>"; };
+		39C3DC571CD2C249008C1898 /* RNMail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMail.xcodeproj; path = "../node_modules/react-native-mail/RNMail.xcodeproj"; sourceTree = "<group>"; };
+		39CE0D3E1CD3F17300FDCFF6 /* AppHubManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppHubManager.h; path = clapitnative/AppHubManager/AppHubManager.h; sourceTree = "<group>"; };
+		39CE0D3F1CD3F17300FDCFF6 /* AppHubManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppHubManager.m; path = clapitnative/AppHubManager/AppHubManager.m; sourceTree = "<group>"; };
+		39E264601CBFD78A009AEA49 /* SharedStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedStorageManager.h; path = shared/SharedStorageManager.h; sourceTree = "<group>"; };
+		39E264611CBFD78A009AEA49 /* SharedStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedStorageManager.m; path = shared/SharedStorageManager.m; sourceTree = "<group>"; };
+		3F414D2F2D744605BF391416 /* libRNViewShot.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNViewShot.a; sourceTree = "<group>"; };
+		481C4B1A1CB87E7000A81758 /* RCTCameraRoll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCameraRoll.xcodeproj; path = "../node_modules/react-native/Libraries/CameraRoll/RCTCameraRoll.xcodeproj"; sourceTree = "<group>"; };
+		484B82601CD2612D00FB2C8A /* RNMessageComposer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMessageComposer.xcodeproj; path = "../node_modules/react-native-message-composer/RNMessageComposer.xcodeproj"; sourceTree = "<group>"; };
+		48CA6C0A1CC17471004447C6 /* RNSearchBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSearchBar.xcodeproj; path = "../node_modules/react-native-search-bar/RNSearchBar.xcodeproj"; sourceTree = "<group>"; };
+		48EB5EBB1CD158410037A25E /* RNMail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMail.xcodeproj; path = "../node_modules/react-native-mail/RNMail.xcodeproj"; sourceTree = "<group>"; };
+		545A3BD143747F8D8DA0A92B /* Pods-clapitnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clapitnative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clapitnative/Pods-clapitnative.debug.xcconfig"; sourceTree = "<group>"; };
+		6A9B95A15EF04724A53550A6 /* RNShare.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNShare.xcodeproj; path = "../node_modules/react-native-share/ios/RNShare.xcodeproj"; sourceTree = "<group>"; };
+		6C1806C23C87F77E9358EB0B /* Pods-clapitnative.apphub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clapitnative.apphub.xcconfig"; path = "Pods/Target Support Files/Pods-clapitnative/Pods-clapitnative.apphub.xcconfig"; sourceTree = "<group>"; };
+		79138B391CAAD97500BD2C6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F8DE0651D05D6490065E8AF /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/Bolts/libBolts.a"; sourceTree = "<group>"; };
+		7F963C361D05D07300962619 /* RNMixpanel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMixpanel.xcodeproj; path = "../node_modules/react-native-mixpanel/RNMixpanel.xcodeproj"; sourceTree = "<group>"; };
+		7FA61CD91D05D85D00E60C59 /* libreact-native-fbsdkcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libreact-native-fbsdkcore.a"; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/react-native-fbsdkcore/libreact-native-fbsdkcore.a"; sourceTree = "<group>"; };
+		7FA61CDA1D05D85D00E60C59 /* libreact-native-fbsdklogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libreact-native-fbsdklogin.a"; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/react-native-fbsdklogin/libreact-native-fbsdklogin.a"; sourceTree = "<group>"; };
+		7FA61CDB1D05D85D00E60C59 /* libreact-native-fbsdkshare.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libreact-native-fbsdkshare.a"; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/react-native-fbsdkshare/libreact-native-fbsdkshare.a"; sourceTree = "<group>"; };
+		7FA61CDF1D05D86F00E60C59 /* libPods-clapitnative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-clapitnative.a"; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/libPods-clapitnative.a"; sourceTree = "<group>"; };
+		7FA61CE11D05D89500E60C59 /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		7FA61CE21D05D89500E60C59 /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		7FA61CE31D05D89500E60C59 /* libFBSDKShareKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKShareKit.a; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/FBSDKShareKit/libFBSDKShareKit.a"; sourceTree = "<group>"; };
+		7FA61D0A1D05D8E300E60C59 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../../Library/Developer/Xcode/DerivedData/clapitnative-fvwnchafhqpqeffwndvocfnpnxue/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
+		827C5DD53869EAE8CFE16FE1 /* libPods-clapitnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clapitnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C320B93D0D6449AA630AA74 /* libRNFIRMessaging.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFIRMessaging.a; sourceTree = "<group>"; };
+		9611C7851D1EA67F00DF208B /* RCTContacts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTContacts.xcodeproj; path = "../node_modules/react-native-contacts/ios/RCTContacts.xcodeproj"; sourceTree = "<group>"; };
+		A183CEB3DEC847C897668636 /* SMXCrashlytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SMXCrashlytics.xcodeproj; path = "../node_modules/react-native-fabric/ios/SMXCrashlytics.xcodeproj"; sourceTree = "<group>"; };
+		B66C7F91F2C44B12978C2814 /* ImageCropPicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ImageCropPicker.xcodeproj; path = "../node_modules/react-native-image-crop-picker/ios/ImageCropPicker.xcodeproj"; sourceTree = "<group>"; };
+		BD479595982049A28A3F14F9 /* RNViewShot.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNViewShot.xcodeproj; path = "../node_modules/react-native-view-shot/ios/RNViewShot.xcodeproj"; sourceTree = "<group>"; };
+		C0344210341B91513766C877 /* Pods-clapitnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clapitnative.release.xcconfig"; path = "Pods/Target Support Files/Pods-clapitnative/Pods-clapitnative.release.xcconfig"; sourceTree = "<group>"; };
+		CF1F1412DB69494184E137FB /* libimageCropPicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libimageCropPicker.a; sourceTree = "<group>"; };
+		E8FF74A6CFD24A04881FBCF8 /* libSMXCrashlytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSMXCrashlytics.a; sourceTree = "<group>"; };
+		F6DBD7C94224471F98770E83 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNShare.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A35A7B1DC2162A005733E8 /* libRSKImageCropper.a in Frameworks */,
+				9611C79D1D1EA6BB00DF208B /* libRCTContacts.a in Frameworks */,
+				045585641D1B624100F175A5 /* CoreLocation.framework in Frameworks */,
+				045585621D1B623900F175A5 /* UIKit.framework in Frameworks */,
+				045585601D1B623100F175A5 /* Foundation.framework in Frameworks */,
+				0455855E1D1B622000F175A5 /* AdSupport.framework in Frameworks */,
+				0455855C1D1B621700F175A5 /* iAd.framework in Frameworks */,
+				0455855A1D1B620900F175A5 /* libTrackAndAd.a in Frameworks */,
+				7F963C4D1D05D0D700962619 /* libRNMixpanel.a in Frameworks */,
+				159F66431CDB92EC0054B24B /* libRNImagePicker.a in Frameworks */,
+				39C3DC601CD2C322008C1898 /* libRNMail.a in Frameworks */,
+				39C3DC611CD2C322008C1898 /* libRNMessageComposer.a in Frameworks */,
+				159F64061CD262870054B24B /* libRNGL.a in Frameworks */,
+				392F67501CC6E85A00DE782C /* libz.tbd in Frameworks */,
+				392F674F1CC6E85100DE782C /* SystemConfiguration.framework in Frameworks */,
+				392F674E1CC6E84C00DE782C /* libAppHub.a in Frameworks */,
+				481C4B221CB87EA600A81758 /* libRCTCameraRoll.a in Frameworks */,
+				392FE05B1CB58A8900749145 /* libRCTCamera.a in Frameworks */,
+				398F6C8A1CAC7A9800EE3560 /* libRCTVideo.a in Frameworks */,
+				002660352B306058C1FB51CD /* libPods-clapitnative.a in Frameworks */,
+				E92371F27AEA4CA1AF9BB5B0 /* libRNFIRMessaging.a in Frameworks */,
+				2B947FC5FD434F71AC178A1B /* libSMXCrashlytics.a in Frameworks */,
+				8455B391551D43EA84BB5712 /* libRNShare.a in Frameworks */,
+				3A973CCF017B43658E3D2484 /* libimageCropPicker.a in Frameworks */,
+				4EE4C2C0D32D4619B5626FE8 /* libRNViewShot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3965A0711CBBE9B900A82F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A3815F1DDD35480040C122 /* libRNViewShot.a in Frameworks */,
+				04A35A941DC33DB1005733E8 /* libRSKImageCropper.a in Frameworks */,
+				0405FA481DBDE10B001911B9 /* libQBImagePickerController.a in Frameworks */,
+				0405FA191DBDDC82001911B9 /* libMixpanel.a in Frameworks */,
+				04462CE61DB73A750016B875 /* libSMXCrashlytics.a in Frameworks */,
+				14E88F3F1D7FEF0700E0D6EA /* libRNFIRMessaging.a in Frameworks */,
+				14E88F3E1D7FDD8A00E0D6EA /* libRNMixpanel.a in Frameworks */,
+				9611C79E1D1EA6D100DF208B /* libRCTContacts.a in Frameworks */,
+				0455856A1D1B62DE00F175A5 /* UIKit.framework in Frameworks */,
+				045585691D1B62D600F175A5 /* Foundation.framework in Frameworks */,
+				045585681D1B62D000F175A5 /* CoreLocation.framework in Frameworks */,
+				045585671D1B62AC00F175A5 /* AdSupport.framework in Frameworks */,
+				045585661D1B62A500F175A5 /* iAd.framework in Frameworks */,
+				045585651D1B627C00F175A5 /* libTrackAndAd.a in Frameworks */,
+				7FA61CE41D05D89500E60C59 /* libFBSDKCoreKit.a in Frameworks */,
+				7FA61CE51D05D89500E60C59 /* libFBSDKLoginKit.a in Frameworks */,
+				7FA61CE61D05D89500E60C59 /* libFBSDKShareKit.a in Frameworks */,
+				7FA61CDC1D05D85D00E60C59 /* libreact-native-fbsdkcore.a in Frameworks */,
+				7FA61CDD1D05D85D00E60C59 /* libreact-native-fbsdklogin.a in Frameworks */,
+				7FA61CDE1D05D85D00E60C59 /* libreact-native-fbsdkshare.a in Frameworks */,
+				7FA61CA51D05D73100E60C59 /* libBolts.a in Frameworks */,
+				39C3DC881CD3C586008C1898 /* libRNGL.a in Frameworks */,
+				392F67531CC6E86900DE782C /* SystemConfiguration.framework in Frameworks */,
+				392F67521CC6E86400DE782C /* libz.tbd in Frameworks */,
+				392F67511CC6E86000DE782C /* libAppHub.a in Frameworks */,
+				3965A08A1CBBEE9B00A82F10 /* libRCTCamera.a in Frameworks */,
+				3965A08B1CBBEE9B00A82F10 /* libRCTVideo.a in Frameworks */,
+				04DEEDC31D6BF78100502027 /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* clapitnativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* clapitnativeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = clapitnativeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0441CABA1DB6FE0500AF7A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0441CAC21DB6FE0600AF7A58 /* libimageCropPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* clapitnative */ = {
+			isa = PBXGroup;
+			children = (
+				04DD4EE11DA5F224003BABDE /* intro_3.mp4 */,
+				045B99411DDD4FCE00C5A377 /* intro_1.mp4 */,
+				04DD4EE21DA5F224003BABDE /* intro_4.mp4 */,
+				042E02951DDAE25C00ACBE46 /* Theo_clapit.mp4 */,
+				04DD4EC81DA5E030003BABDE /* intro_2.mp4 */,
+				149B1A8B1DA3401A00EF85AA /* MixpanelManager */,
+				14DD32541D3C760F00DA8DAD /* GoogleService-Info.plist */,
+				39A027A61CCC876D003BAE8E /* clapit.entitlements */,
+				39958E281CE0F58100DB5898 /* clapit-apphub.entitlements */,
+				397359A11CD7BB9C007EF88A /* Crashlytics */,
+				39CE0D3D1CD3F15400FDCFF6 /* AppHubManager */,
+				39A027A01CCAB9E8003BAE8E /* RNUploader */,
+				39BF72FE1CC197B200BAB466 /* AssetHelperManager */,
+				3965A0461CB85DC000A82F10 /* ClapSoundManager */,
+				3965A0421CB8582C00A82F10 /* clap.m4a */,
+				392FE05F1CB5A64600749145 /* ImageCropperManager */,
+				392FE0531CB2AD7D00749145 /* LaunchScreen.xib */,
+				398F6C8D1CADC8FE00EE3560 /* TwitterManager */,
+				398F6C181CAB35FF00EE3560 /* Fonts */,
+				398F6BDC1CAAE4BD00EE3560 /* clapit-intro.mp4 */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				79138B391CAAD97500BD2C6A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = clapitnative;
+			sourceTree = "<group>";
+		};
+		149B1A8B1DA3401A00EF85AA /* MixpanelManager */ = {
+			isa = PBXGroup;
+			children = (
+				149B1A8C1DA3401A00EF85AA /* MixpanelManager.h */,
+				149B1A8D1DA3401A00EF85AA /* MixpanelManager.m */,
+			);
+			name = MixpanelManager;
+			path = clapitnative/MixpanelManager;
+			sourceTree = "<group>";
+		};
+		14BDA47C1DD0533F00098495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BDA4961DD0533F00098495 /* libRNViewShot.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CFB3E01DAF0C960061032A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CFB3F81DAF0C960061032A /* libSMXCrashlytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CFB40B1DAF60EA0061032A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CFB4221DAF60EA0061032A /* libRNShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DD322B1D3C740000DA8DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DD32371D3C740000DA8DAD /* libRNFIRMessaging.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1539CAD61CCFF76D00171952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1539CADA1CCFF76D00171952 /* libAQWebView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		159F63F81CD262760054B24B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				159F64031CD262760054B24B /* libRNGL.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		159F662E1CDB92D80054B24B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				159F663A1CDB92D90054B24B /* libRNImagePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392FE0561CB58A7000749145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392FE05A1CB58A7000749145 /* libRCTCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392FE05F1CB5A64600749145 /* ImageCropperManager */ = {
+			isa = PBXGroup;
+			children = (
+				392FE0621CB5A67600749145 /* ImageCropperManager.h */,
+				392FE0631CB5A67600749145 /* ImageCropperManager.m */,
+			);
+			name = ImageCropperManager;
+			sourceTree = "<group>";
+		};
+		3965A0461CB85DC000A82F10 /* ClapSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				3965A0471CB85DF800A82F10 /* ClapSoundManager.h */,
+				3965A0481CB85DF800A82F10 /* ClapSoundManager.m */,
+			);
+			name = ClapSoundManager;
+			sourceTree = "<group>";
+		};
+		3965A0751CBBE9B900A82F10 /* clapitextension */ = {
+			isa = PBXGroup;
+			children = (
+				39A027A51CCC857C003BAE8E /* clapitextension.entitlements */,
+				39958E2A1CE0F5AA00DB5898 /* clapitextension-apphub.entitlements */,
+				3965A0761CBBE9B900A82F10 /* ShareViewController.h */,
+				3965A0771CBBE9B900A82F10 /* ShareViewController.m */,
+				3965A0791CBBE9B900A82F10 /* MainInterface.storyboard */,
+				3965A07C1CBBE9B900A82F10 /* Info.plist */,
+				3965A09D1CBC56C000A82F10 /* ExtensionManager.h */,
+				3965A09E1CBC56C000A82F10 /* ExtensionManager.m */,
+			);
+			path = clapitextension;
+			sourceTree = "<group>";
+		};
+		397359A11CD7BB9C007EF88A /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				397359A21CD7BBB4007EF88A /* CrashlyticsManager.h */,
+				397359A31CD7BBB4007EF88A /* CrashlyticsManager.m */,
+			);
+			name = Crashlytics;
+			sourceTree = "<group>";
+		};
+		398F6C181CAB35FF00EE3560 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				398F6C241CAB362C00EE3560 /* AvenirNextRoundedPro-Med.ttf */,
+				398F6C251CAB362C00EE3560 /* AvenirNextRoundedStd-Bold.otf */,
+				398F6C261CAB362C00EE3560 /* AvenirNextRoundedStd-Med.otf */,
+			);
+			name = Fonts;
+			path = clapitnative/Fonts;
+			sourceTree = "<group>";
+		};
+		398F6C851CAC7A8400EE3560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398F6C891CAC7A8400EE3560 /* libRCTVideo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		398F6C8D1CADC8FE00EE3560 /* TwitterManager */ = {
+			isa = PBXGroup;
+			children = (
+				398F6C8F1CADC98200EE3560 /* TwitterManager.h */,
+				398F6C901CADC98200EE3560 /* TwitterManager.m */,
+			);
+			name = TwitterManager;
+			sourceTree = "<group>";
+		};
+		39A0279B1CCAB877003BAE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A0279F1CCAB877003BAE8E /* libRNUploader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A027A01CCAB9E8003BAE8E /* RNUploader */ = {
+			isa = PBXGroup;
+			children = (
+				39A027A11CCAB9F7003BAE8E /* RNUploader.m */,
+			);
+			name = RNUploader;
+			sourceTree = "<group>";
+		};
+		39BF72FE1CC197B200BAB466 /* AssetHelperManager */ = {
+			isa = PBXGroup;
+			children = (
+				39BF73171CC2C03A00BAB466 /* AssetHelperManager.h */,
+				39BF73181CC2C03A00BAB466 /* AssetHelperManager.m */,
+			);
+			name = AssetHelperManager;
+			path = clapitnative/AssetHelperManager;
+			sourceTree = "<group>";
+		};
+		39BF733D1CC6D20500BAB466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BF73441CC6D20600BAB466 /* libAppHub.a */,
+				39BF73461CC6D20600BAB466 /* AppHub.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C3DC451CD2C22E008C1898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C3DC531CD2C22E008C1898 /* libRNMessageComposer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C3DC581CD2C249008C1898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C3DC5D1CD2C24A008C1898 /* libRNMail.a */,
+				39C3DC5F1CD2C24A008C1898 /* RNMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39CE0D3D1CD3F15400FDCFF6 /* AppHubManager */ = {
+			isa = PBXGroup;
+			children = (
+				39CE0D3E1CD3F17300FDCFF6 /* AppHubManager.h */,
+				39CE0D3F1CD3F17300FDCFF6 /* AppHubManager.m */,
+			);
+			name = AppHubManager;
+			sourceTree = "<group>";
+		};
+		39E2645F1CBFD73D009AEA49 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				045585431D1B617300F175A5 /* KochavaWrapper.h */,
+				045585441D1B617300F175A5 /* KochavaWrapper.m */,
+				3965A0A41CBCB0B100A82F10 /* ViewSnapshotter.h */,
+				3965A0A51CBCB0B100A82F10 /* ViewSnapshotter.m */,
+				39E264601CBFD78A009AEA49 /* SharedStorageManager.h */,
+				39E264611CBFD78A009AEA49 /* SharedStorageManager.m */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		481C4B1B1CB87E7000A81758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				481C4B201CB87E7000A81758 /* libRCTCameraRoll.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484B82611CD2612D00FB2C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484B826E1CD2612D00FB2C8A /* libRNMessageComposer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48CA6C0B1CC17471004447C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48CA6C121CC17471004447C6 /* libRNSearchBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EB5EBC1CD158410037A25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EB5EC71CD158410037A25E /* libRNMail.a */,
+				48EB5EC91CD158410037A25E /* RNMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51598B8441776BF9C7AE44C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				545A3BD143747F8D8DA0A92B /* Pods-clapitnative.debug.xcconfig */,
+				C0344210341B91513766C877 /* Pods-clapitnative.release.xcconfig */,
+				6C1806C23C87F77E9358EB0B /* Pods-clapitnative.apphub.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F963C371D05D07300962619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F963C4A1D05D07300962619 /* libRNMixpanel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9611C7851D1EA67F00DF208B /* RCTContacts.xcodeproj */,
+				7F963C361D05D07300962619 /* RNMixpanel.xcodeproj */,
+				159F662D1CDB92D80054B24B /* RNImagePicker.xcodeproj */,
+				39C3DC571CD2C249008C1898 /* RNMail.xcodeproj */,
+				39C3DC441CD2C22E008C1898 /* RNMessageComposer.xcodeproj */,
+				159F63F71CD262760054B24B /* RNGL.xcodeproj */,
+				1539CAD51CCFF76D00171952 /* AQWebView.xcodeproj */,
+				15ABD96F1CCA804400BF5057 /* RNUploader.xcodeproj */,
+				39BF733C1CC6D20500BAB466 /* AppHub.xcodeproj */,
+				48CA6C0A1CC17471004447C6 /* RNSearchBar.xcodeproj */,
+				481C4B1A1CB87E7000A81758 /* RCTCameraRoll.xcodeproj */,
+				392FE0551CB58A7000749145 /* RCTCamera.xcodeproj */,
+				398F6C841CAC7A8400EE3560 /* RCTVideo.xcodeproj */,
+				2A59ACD91616499184B70A64 /* RNFIRMessaging.xcodeproj */,
+				A183CEB3DEC847C897668636 /* SMXCrashlytics.xcodeproj */,
+				6A9B95A15EF04724A53550A6 /* RNShare.xcodeproj */,
+				B66C7F91F2C44B12978C2814 /* ImageCropPicker.xcodeproj */,
+				BD479595982049A28A3F14F9 /* RNViewShot.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		8375BC7DF4A90CF687F449F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A35A931DC33DB1005733E8 /* libRSKImageCropper.a */,
+				04A35A7A1DC2162A005733E8 /* libRSKImageCropper.a */,
+				0405FA471DBDE10B001911B9 /* libQBImagePickerController.a */,
+				0405FA181DBDDC82001911B9 /* libMixpanel.a */,
+				04DEEDC21D6BF78100502027 /* libReact.a */,
+				045585631D1B624100F175A5 /* CoreLocation.framework */,
+				045585611D1B623900F175A5 /* UIKit.framework */,
+				0455855F1D1B623100F175A5 /* Foundation.framework */,
+				0455855D1D1B622000F175A5 /* AdSupport.framework */,
+				0455855B1D1B621700F175A5 /* iAd.framework */,
+				045585591D1B620900F175A5 /* libTrackAndAd.a */,
+				7FA61D0A1D05D8E300E60C59 /* libReact.a */,
+				7FA61CE11D05D89500E60C59 /* libFBSDKCoreKit.a */,
+				7FA61CE21D05D89500E60C59 /* libFBSDKLoginKit.a */,
+				7FA61CE31D05D89500E60C59 /* libFBSDKShareKit.a */,
+				7FA61CDF1D05D86F00E60C59 /* libPods-clapitnative.a */,
+				7FA61CD91D05D85D00E60C59 /* libreact-native-fbsdkcore.a */,
+				7FA61CDA1D05D85D00E60C59 /* libreact-native-fbsdklogin.a */,
+				7FA61CDB1D05D85D00E60C59 /* libreact-native-fbsdkshare.a */,
+				7F8DE0651D05D6490065E8AF /* libBolts.a */,
+				392F67491CC6E53000DE782C /* libz.tbd */,
+				392F67471CC6E52700DE782C /* SystemConfiguration.framework */,
+				827C5DD53869EAE8CFE16FE1 /* libPods-clapitnative.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				39E2645F1CBFD73D009AEA49 /* shared */,
+				13B07FAE1A68108700A75B9A /* clapitnative */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* clapitnativeTests */,
+				3965A0751CBBE9B900A82F10 /* clapitextension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				8375BC7DF4A90CF687F449F4 /* Frameworks */,
+				51598B8441776BF9C7AE44C0 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* clapit.app */,
+				3965A0741CBBE9B900A82F10 /* clapitextension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9611C7861D1EA67F00DF208B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9611C7901D1EA67F00DF208B /* libRCTContacts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* clapitnative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "clapitnative" */;
+			buildPhases = (
+				1875AE4952B9037849878A62 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3965A0851CBBE9B900A82F10 /* Embed App Extensions */,
+				39235D511CD7B07900909553 /* Run Script */,
+				5EE3D3B99447F69C260087EA /* [CP] Embed Pods Frameworks */,
+				B4D1D4F3459E477DB261BDC7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3965A07E1CBBE9B900A82F10 /* PBXTargetDependency */,
+			);
+			name = clapitnative;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* clapit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3965A0731CBBE9B900A82F10 /* clapitextension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3965A0841CBBE9B900A82F10 /* Build configuration list for PBXNativeTarget "clapitextension" */;
+			buildPhases = (
+				3965A0701CBBE9B900A82F10 /* Sources */,
+				3965A0711CBBE9B900A82F10 /* Frameworks */,
+				3965A0721CBBE9B900A82F10 /* Resources */,
+				39A027A41CCC809F003BAE8E /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clapitextension;
+			productName = clapitextension;
+			productReference = 3965A0741CBBE9B900A82F10 /* clapitextension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 730;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = UPPYLL74TL;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3965A0731CBBE9B900A82F10 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UPPYLL74TL;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "clapitnative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 39BF733D1CC6D20500BAB466 /* Products */;
+					ProjectRef = 39BF733C1CC6D20500BAB466 /* AppHub.xcodeproj */;
+				},
+				{
+					ProductGroup = 1539CAD61CCFF76D00171952 /* Products */;
+					ProjectRef = 1539CAD51CCFF76D00171952 /* AQWebView.xcodeproj */;
+				},
+				{
+					ProductGroup = 0441CABA1DB6FE0500AF7A58 /* Products */;
+					ProjectRef = B66C7F91F2C44B12978C2814 /* ImageCropPicker.xcodeproj */;
+				},
+				{
+					ProductGroup = 392FE0561CB58A7000749145 /* Products */;
+					ProjectRef = 392FE0551CB58A7000749145 /* RCTCamera.xcodeproj */;
+				},
+				{
+					ProductGroup = 481C4B1B1CB87E7000A81758 /* Products */;
+					ProjectRef = 481C4B1A1CB87E7000A81758 /* RCTCameraRoll.xcodeproj */;
+				},
+				{
+					ProductGroup = 9611C7861D1EA67F00DF208B /* Products */;
+					ProjectRef = 9611C7851D1EA67F00DF208B /* RCTContacts.xcodeproj */;
+				},
+				{
+					ProductGroup = 398F6C851CAC7A8400EE3560 /* Products */;
+					ProjectRef = 398F6C841CAC7A8400EE3560 /* RCTVideo.xcodeproj */;
+				},
+				{
+					ProductGroup = 14DD322B1D3C740000DA8DAD /* Products */;
+					ProjectRef = 2A59ACD91616499184B70A64 /* RNFIRMessaging.xcodeproj */;
+				},
+				{
+					ProductGroup = 159F63F81CD262760054B24B /* Products */;
+					ProjectRef = 159F63F71CD262760054B24B /* RNGL.xcodeproj */;
+				},
+				{
+					ProductGroup = 159F662E1CDB92D80054B24B /* Products */;
+					ProjectRef = 159F662D1CDB92D80054B24B /* RNImagePicker.xcodeproj */;
+				},
+				{
+					ProductGroup = 48EB5EBC1CD158410037A25E /* Products */;
+					ProjectRef = 48EB5EBB1CD158410037A25E /* RNMail.xcodeproj */;
+				},
+				{
+					ProductGroup = 39C3DC581CD2C249008C1898 /* Products */;
+					ProjectRef = 39C3DC571CD2C249008C1898 /* RNMail.xcodeproj */;
+				},
+				{
+					ProductGroup = 39C3DC451CD2C22E008C1898 /* Products */;
+					ProjectRef = 39C3DC441CD2C22E008C1898 /* RNMessageComposer.xcodeproj */;
+				},
+				{
+					ProductGroup = 484B82611CD2612D00FB2C8A /* Products */;
+					ProjectRef = 484B82601CD2612D00FB2C8A /* RNMessageComposer.xcodeproj */;
+				},
+				{
+					ProductGroup = 7F963C371D05D07300962619 /* Products */;
+					ProjectRef = 7F963C361D05D07300962619 /* RNMixpanel.xcodeproj */;
+				},
+				{
+					ProductGroup = 48CA6C0B1CC17471004447C6 /* Products */;
+					ProjectRef = 48CA6C0A1CC17471004447C6 /* RNSearchBar.xcodeproj */;
+				},
+				{
+					ProductGroup = 14CFB40B1DAF60EA0061032A /* Products */;
+					ProjectRef = 6A9B95A15EF04724A53550A6 /* RNShare.xcodeproj */;
+				},
+				{
+					ProductGroup = 39A0279B1CCAB877003BAE8E /* Products */;
+					ProjectRef = 15ABD96F1CCA804400BF5057 /* RNUploader.xcodeproj */;
+				},
+				{
+					ProductGroup = 14BDA47C1DD0533F00098495 /* Products */;
+					ProjectRef = BD479595982049A28A3F14F9 /* RNViewShot.xcodeproj */;
+				},
+				{
+					ProductGroup = 14CFB3E01DAF0C960061032A /* Products */;
+					ProjectRef = A183CEB3DEC847C897668636 /* SMXCrashlytics.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* clapitnative */,
+				3965A0731CBBE9B900A82F10 /* clapitextension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0441CAC21DB6FE0600AF7A58 /* libimageCropPicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libimageCropPicker.a;
+			remoteRef = 0441CAC11DB6FE0600AF7A58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14BDA4961DD0533F00098495 /* libRNViewShot.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNViewShot.a;
+			remoteRef = 14BDA4951DD0533F00098495 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14CFB3F81DAF0C960061032A /* libSMXCrashlytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSMXCrashlytics.a;
+			remoteRef = 14CFB3F71DAF0C960061032A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14CFB4221DAF60EA0061032A /* libRNShare.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNShare.a;
+			remoteRef = 14CFB4211DAF60EA0061032A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14DD32371D3C740000DA8DAD /* libRNFIRMessaging.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFIRMessaging.a;
+			remoteRef = 14DD32361D3C740000DA8DAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1539CADA1CCFF76D00171952 /* libAQWebView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAQWebView.a;
+			remoteRef = 1539CAD91CCFF76D00171952 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		159F64031CD262760054B24B /* libRNGL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGL.a;
+			remoteRef = 159F64021CD262760054B24B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		159F663A1CDB92D90054B24B /* libRNImagePicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImagePicker.a;
+			remoteRef = 159F66391CDB92D90054B24B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		392FE05A1CB58A7000749145 /* libRCTCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCamera.a;
+			remoteRef = 392FE0591CB58A7000749145 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		398F6C891CAC7A8400EE3560 /* libRCTVideo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVideo.a;
+			remoteRef = 398F6C881CAC7A8400EE3560 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39A0279F1CCAB877003BAE8E /* libRNUploader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNUploader.a;
+			remoteRef = 39A0279E1CCAB877003BAE8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39BF73441CC6D20600BAB466 /* libAppHub.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppHub.a;
+			remoteRef = 39BF73431CC6D20600BAB466 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39BF73461CC6D20600BAB466 /* AppHub.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AppHub.xctest;
+			remoteRef = 39BF73451CC6D20600BAB466 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39C3DC531CD2C22E008C1898 /* libRNMessageComposer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMessageComposer.a;
+			remoteRef = 39C3DC521CD2C22E008C1898 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39C3DC5D1CD2C24A008C1898 /* libRNMail.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMail.a;
+			remoteRef = 39C3DC5C1CD2C24A008C1898 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39C3DC5F1CD2C24A008C1898 /* RNMailTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RNMailTests.xctest;
+			remoteRef = 39C3DC5E1CD2C24A008C1898 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		481C4B201CB87E7000A81758 /* libRCTCameraRoll.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCameraRoll.a;
+			remoteRef = 481C4B1F1CB87E7000A81758 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		484B826E1CD2612D00FB2C8A /* libRNMessageComposer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMessageComposer.a;
+			remoteRef = 484B826D1CD2612D00FB2C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		48CA6C121CC17471004447C6 /* libRNSearchBar.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSearchBar.a;
+			remoteRef = 48CA6C111CC17471004447C6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		48EB5EC71CD158410037A25E /* libRNMail.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMail.a;
+			remoteRef = 48EB5EC61CD158410037A25E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		48EB5EC91CD158410037A25E /* RNMailTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RNMailTests.xctest;
+			remoteRef = 48EB5EC81CD158410037A25E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F963C4A1D05D07300962619 /* libRNMixpanel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMixpanel.a;
+			remoteRef = 7F963C491D05D07300962619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9611C7901D1EA67F00DF208B /* libRCTContacts.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTContacts.a;
+			remoteRef = 9611C78F1D1EA67F00DF208B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F6C281CAB362C00EE3560 /* AvenirNextRoundedStd-Bold.otf in Resources */,
+				398F6C271CAB362C00EE3560 /* AvenirNextRoundedPro-Med.ttf in Resources */,
+				3965A0431CB8582C00A82F10 /* clap.m4a in Resources */,
+				398F6BDD1CAAE4BD00EE3560 /* clapit-intro.mp4 in Resources */,
+				398F6C291CAB362C00EE3560 /* AvenirNextRoundedStd-Med.otf in Resources */,
+				042E02961DDAE25C00ACBE46 /* Theo_clapit.mp4 in Resources */,
+				045B99421DDD4FCE00C5A377 /* intro_1.mp4 in Resources */,
+				392FE0541CB2AD7D00749145 /* LaunchScreen.xib in Resources */,
+				39958E291CE0F58100DB5898 /* clapit-apphub.entitlements in Resources */,
+				14DD32551D3C760F00DA8DAD /* GoogleService-Info.plist in Resources */,
+				04DD4EE31DA5F224003BABDE /* intro_3.mp4 in Resources */,
+				79138B3A1CAAD97500BD2C6A /* Images.xcassets in Resources */,
+				04DD4EE41DA5F224003BABDE /* intro_4.mp4 in Resources */,
+				39958E2B1CE0F5AA00DB5898 /* clapitextension-apphub.entitlements in Resources */,
+				04DD4ECA1DA5E030003BABDE /* intro_2.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3965A0721CBBE9B900A82F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3965A07B1CBBE9B900A82F10 /* MainInterface.storyboard in Resources */,
+				3965A09B1CBC2E0300A82F10 /* clap.m4a in Resources */,
+				045B99431DDD4FCE00C5A377 /* intro_1.mp4 in Resources */,
+				042E02971DDAE25C00ACBE46 /* Theo_clapit.mp4 in Resources */,
+				3965A09A1CBC1A5400A82F10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		1875AE4952B9037849878A62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39235D511CD7B07900909553 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 58fd4fa83957893907a77015577c08a68ea61e9b 9743db14f3b6685ee72d496e3d876981d2a7fe03c6b3093af475fb7931a33853";
+		};
+		39A027A41CCC809F003BAE8E /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		5EE3D3B99447F69C260087EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clapitnative/Pods-clapitnative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D1D4F3459E477DB261BDC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clapitnative/Pods-clapitnative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A027A21CCAB9F7003BAE8E /* RNUploader.m in Sources */,
+				045585451D1B617300F175A5 /* KochavaWrapper.m in Sources */,
+				39CE0D401CD3F17300FDCFF6 /* AppHubManager.m in Sources */,
+				398F6C911CADC98200EE3560 /* TwitterManager.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				39BF73191CC2C03A00BAB466 /* AssetHelperManager.m in Sources */,
+				3965A0A71CBCB0B600A82F10 /* ViewSnapshotter.m in Sources */,
+				397359A41CD7BBB4007EF88A /* CrashlyticsManager.m in Sources */,
+				39E264621CBFD78A009AEA49 /* SharedStorageManager.m in Sources */,
+				392FE0641CB5A67600749145 /* ImageCropperManager.m in Sources */,
+				149B1A8E1DA3401A00EF85AA /* MixpanelManager.m in Sources */,
+				3965A0491CB85DF800A82F10 /* ClapSoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3965A0701CBBE9B900A82F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3965A09F1CBC56C000A82F10 /* ExtensionManager.m in Sources */,
+				39FC85651CD80207009CB378 /* ImageCropperManager.m in Sources */,
+				3965A0781CBBE9B900A82F10 /* ShareViewController.m in Sources */,
+				39E264631CBFD78A009AEA49 /* SharedStorageManager.m in Sources */,
+				045585461D1B617300F175A5 /* KochavaWrapper.m in Sources */,
+				39FC85541CD80071009CB378 /* AssetHelperManager.m in Sources */,
+				39A027A31CCAB9F7003BAE8E /* RNUploader.m in Sources */,
+				3965A0A61CBCB0B100A82F10 /* ViewSnapshotter.m in Sources */,
+				3965A09C1CBC2E6D00A82F10 /* ClapSoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3965A07E1CBBE9B900A82F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3965A0731CBBE9B900A82F10 /* clapitextension */;
+			targetProxy = 3965A07D1CBBE9B900A82F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3965A0791CBBE9B900A82F10 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3965A07A1CBBE9B900A82F10 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545A3BD143747F8D8DA0A92B /* Pods-clapitnative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = clapitnative/clapit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
+					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-view-shot/ios",
+				);
+				INFOPLIST_FILE = clapitnative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Kochava",
+					"\"$(SRCROOT)/clapit\"",
+					"\"$(SRCROOT)/clapit\"",
+					"\"$(SRCROOT)/clapit\"",
+					"\"$(SRCROOT)/clapit\"",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RSKImageCropper",
+					"\"$(SRCROOT)/clapit\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBSDKCoreKit\"",
+					"-l\"FBSDKLoginKit\"",
+					"-l\"FBSDKShareKit\"",
+					"-l\"Mixpanel\"",
+					"-l\"React\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"react-native-fbsdkcore\"",
+					"-l\"react-native-fbsdklogin\"",
+					"-l\"react-native-fbsdkshare\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clapit.clapit;
+				PRODUCT_NAME = clapit;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0344210341B91513766C877 /* Pods-clapitnative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = clapitnative/clapit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
+					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-view-shot/ios",
+				);
+				INFOPLIST_FILE = clapitnative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Kochava",
+					"\"$(SRCROOT)/clapit\"",
+					"\"$(SRCROOT)/clapit\"",
+					"\"$(SRCROOT)/clapit\"",
+					"\"$(SRCROOT)/clapit\"",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RSKImageCropper",
+					"\"$(SRCROOT)/clapit\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBSDKCoreKit\"",
+					"-l\"FBSDKLoginKit\"",
+					"-l\"FBSDKShareKit\"",
+					"-l\"Mixpanel\"",
+					"-l\"React\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"react-native-fbsdkcore\"",
+					"-l\"react-native-fbsdklogin\"",
+					"-l\"react-native-fbsdkshare\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clapit.clapit;
+				PRODUCT_NAME = clapit;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3965A0801CBBE9B900A82F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545A3BD143747F8D8DA0A92B /* Pods-clapitnative.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = clapitextension/clapitextension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = clapitextension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DWARF_DSYM_FOLDER_PATH)/**",
+					"$(PROJECT_DIR)/Pods/Kochava",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Mixpanel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/QBImagePickerController",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RSKImageCropper",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clapit.clapit.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3965A0811CBBE9B900A82F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0344210341B91513766C877 /* Pods-clapitnative.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = clapitextension/clapitextension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = clapitextension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DWARF_DSYM_FOLDER_PATH)/**",
+					"/Users/nmijailovic/Library/Developer/Xcode/DerivedData/clapitnative-fwjtolfszqoqflhhnyswkwkvvjun/Build/Intermediates/ArchiveIntermediates/clapitnative/IntermediateBuildFilesPath/UninstalledProducts/iphoneos",
+					"$(PROJECT_DIR)/Pods/Kochava",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Mixpanel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/QBImagePickerController",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RSKImageCropper",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clapit.clapit.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		39958E251CE0E6F500DB5898 /* AppHub */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Clap online LIMITED (UPPYLL74TL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_TEMP_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "APPHUB=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/apphub/AppHub/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
+					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-view-shot/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8e491ef4-4a44-4bc6-8a32-91e83a121e82";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppHub;
+		};
+		39958E261CE0E6F500DB5898 /* AppHub */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1806C23C87F77E9358EB0B /* Pods-clapitnative.apphub.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "clapitnative/clapit-apphub.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"APPHUB=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
+					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-view-shot/ios",
+				);
+				INFOPLIST_FILE = clapitnative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Kochava",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RSKImageCropper",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBSDKCoreKit\"",
+					"-l\"FBSDKLoginKit\"",
+					"-l\"FBSDKShareKit\"",
+					"-l\"Mixpanel\"",
+					"-l\"React\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"react-native-fbsdkcore\"",
+					"-l\"react-native-fbsdklogin\"",
+					"-l\"react-native-fbsdkshare\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clapit.clapittest;
+				PRODUCT_NAME = "clapit-test";
+				PROVISIONING_PROFILE = "";
+			};
+			name = AppHub;
+		};
+		39958E271CE0E6F500DB5898 /* AppHub */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1806C23C87F77E9358EB0B /* Pods-clapitnative.apphub.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = "clapitextension/clapitextension-apphub.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "APPHUB=1";
+				INFOPLIST_FILE = clapitextension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DWARF_DSYM_FOLDER_PATH)/**",
+					"/Users/nmijailovic/Library/Developer/Xcode/DerivedData/clapitnative-fwjtolfszqoqflhhnyswkwkvvjun/Build/Intermediates/ArchiveIntermediates/clapitnative/IntermediateBuildFilesPath/UninstalledProducts/iphoneos",
+					"$(PROJECT_DIR)/Pods/Kochava",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Mixpanel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/QBImagePickerController",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RSKImageCropper",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clapit.clapittest.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = AppHub;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Clap online LIMITED (UPPYLL74TL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_TEMP_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/apphub/AppHub/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
+					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-view-shot/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "002cb473-7779-4c0c-8dd4-c86ee6c3ff66";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Clap online LIMITED (UPPYLL74TL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_TEMP_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/apphub/AppHub/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
+					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-view-shot/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "002cb473-7779-4c0c-8dd4-c86ee6c3ff66";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "clapitnative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				39958E261CE0E6F500DB5898 /* AppHub */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3965A0841CBBE9B900A82F10 /* Build configuration list for PBXNativeTarget "clapitextension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3965A0801CBBE9B900A82F10 /* Debug */,
+				3965A0811CBBE9B900A82F10 /* Release */,
+				39958E271CE0E6F500DB5898 /* AppHub */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "clapitnative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				39958E251CE0E6F500DB5898 /* AppHub */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

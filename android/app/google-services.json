@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "93327318883",
+    "firebase_url": "https://clapit-prod.firebaseio.com",
+    "project_id": "clapit-prod",
+    "storage_bucket": "clapit-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93327318883:android:aff0582af3c955ce",
+        "android_client_info": {
+          "package_name": "com.clapitnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93327318883-2td8g44egilrd3uho44dgnshk14dgfkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBhUDXBL7gXKcQUWy85vBUfyU7PTkoxwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,143 @@
+PODS:
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.12.0):
+    - FBSDKCoreKit
+  - Firebase/Analytics (3.2.1):
+    - FirebaseAnalytics (= 3.2.0)
+  - Firebase/Messaging (3.2.1):
+    - Firebase/Analytics (= 3.2.1)
+    - FirebaseMessaging (= 1.1.0)
+  - FirebaseAnalytics (3.2.0):
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.3)
+  - FirebaseInstanceID (1.0.6)
+  - FirebaseMessaging (1.1.0):
+    - FirebaseAnalytics (~> 3.2)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleIPhoneUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleInterchangeUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleIPhoneUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.1)
+  - GoogleUtilities (1.3.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - Kochava (20160601)
+  - Mixpanel (2.9.9):
+    - Mixpanel/Mixpanel (= 2.9.9)
+  - Mixpanel/Mixpanel (2.9.9)
+  - QBImagePickerController (3.4.0)
+  - React (0.31.0):
+    - React/Core (= 0.31.0)
+  - react-native-fbsdkcore (0.0.8):
+    - FBSDKCoreKit
+    - React
+  - react-native-fbsdklogin (0.0.9):
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - React
+  - react-native-fbsdkshare (0.0.9):
+    - FBSDKCoreKit
+    - FBSDKShareKit
+    - React
+  - React/Core (0.31.0):
+    - React/CSSLayout
+  - React/CSSLayout (0.31.0)
+  - React/RCTActionSheet (0.31.0):
+    - React/Core
+  - React/RCTImage (0.31.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.31.0):
+    - React/Core
+  - React/RCTNetwork (0.31.0):
+    - React/Core
+  - React/RCTPushNotification (0.31.0):
+    - React/Core
+  - React/RCTText (0.31.0):
+    - React/Core
+  - React/RCTWebSocket (0.31.0):
+    - React/Core
+  - RSKImageCropper (1.5.1)
+  - TwitterCore (1.15.3):
+    - Fabric
+  - TwitterKit (1.15.3):
+    - TwitterCore (= 1.15.3)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Firebase/Messaging
+  - Kochava
+  - Mixpanel
+  - QBImagePickerController
+  - react-native-fbsdkcore (from `../node_modules/react-native-fbsdkcore`)
+  - react-native-fbsdklogin (from `../node_modules/react-native-fbsdklogin`)
+  - react-native-fbsdkshare (from `../node_modules/react-native-fbsdkshare`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RSKImageCropper
+  - TwitterCore (~> 1.15.3)
+  - TwitterKit (~> 1.15.3)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  react-native-fbsdkcore:
+    :path: ../node_modules/react-native-fbsdkcore
+  react-native-fbsdklogin:
+    :path: ../node_modules/react-native-fbsdklogin
+  react-native-fbsdkshare:
+    :path: ../node_modules/react-native-fbsdkshare
+
+SPEC CHECKSUMS:
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+  FBSDKShareKit: df1491f064cffc8ebcc3fc8b71be94cc190c728e
+  Firebase: 6c80ac28d59d06bfd9152a7b6ea17625ca93183d
+  FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863
+  FirebaseInstanceID: d014d574053a2fe84478f12f7bae96979e7051bb
+  FirebaseMessaging: 8a92e9ea70673605aa7d1803d2d5aa3eb946009c
+  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
+  GoogleIPhoneUtilities: 63f25e93a3ddcb66884d182aab3a660d98f1479b
+  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
+  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  Kochava: 362808c8d2e978b71c01feabfcd5562a10805631
+  Mixpanel: 818d1940c2d9402453b349545022a86968097f57
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  React: 2f91a7f6fa19461502109a1e6ad6e0626ce76920
+  react-native-fbsdkcore: 41561900e8f26faffdf150aae1b2495605487f5c
+  react-native-fbsdklogin: 051c5ce247e913d0e11f386df69ae779cd2ca379
+  react-native-fbsdkshare: 0344755e31ae4d2490c92e1474ed6d75a9ff9f9c
+  RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+  TwitterCore: cce24b3c798993ccde72787ea79ea9a478b284e4
+  TwitterKit: 43600f2d2848c227739efea5b2939585e69339c3
+
+PODFILE CHECKSUM: 6d42e8e8db97eedb391a81cf5a2b617a8daaab7e
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'clapitnative' do
+  pod 'React', :subspecs => ['Core', 'RCTImage', 'RCTNetwork', 'RCTText', 'RCTWebSocket', 'RCTLinkingIOS', 'RCTActionSheet', 'RCTPushNotification'], :path => '../node_modules/react-native'
+  pod 'react-native-fbsdkcore', :path => '../node_modules/react-native-fbsdkcore'
+  pod 'react-native-fbsdklogin', :path => '../node_modules/react-native-fbsdklogin'
+  pod 'react-native-fbsdkshare', :path => '../node_modules/react-native-fbsdkshare'
+  pod 'TwitterKit', '~> 1.15.3'
+  pod 'TwitterCore', '~> 1.15.3'
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'Mixpanel'
+  pod 'Kochava'
+  pod 'Firebase/Messaging'
+  pod 'RSKImageCropper'
+  pod 'QBImagePickerController'
+end
